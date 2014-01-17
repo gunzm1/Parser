@@ -185,7 +185,7 @@ reverse_print_stack(S) :- 	stack(E, Rest, S),
 
 %%%%%%%%%%%%%%%%%%%%%%% problem specification: definition of actions %%%%%%%%%%%%%%%%%%%
 
- /* sample moves */
+%% /* sample moves */
 
 move(unstack(X,Y), [handempty, clear(X), on(X, Y)], 
 		[del(handempty), del(clear(X)), del(on(X, Y)), 
